@@ -14,7 +14,7 @@ justify-content: center;
   height: 100px;
   width: 60px ;
   background-color: darkblue;
-transition: all 0.5s;
+transition: all 0.3s;
 }
 
 .sea {
