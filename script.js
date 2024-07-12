@@ -6,7 +6,7 @@ console.log(alpha, gamma, beta);
 
 const surfer = document.getElementById('surfer')
 
-surfer.style.transform=`translateX(${(beta ?? 0) * 10}px)`;
+surfer.style.transform=`translateX(${(gamma ?? 0) * 10}px)`;
 }
 
 
