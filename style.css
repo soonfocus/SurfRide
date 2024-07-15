@@ -2,11 +2,38 @@ body {
   margin: 0;
 }
 
-#timer {
+#menu {
+  width: 100vw;
+  height: 100vh;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-start {
+  font-size: 130px;
+}
+
+#ride-container {
+  display: none;
+  width: 100vw;
+  height: 100vh;
+}
+
+#panel {
   position: absolute;
+  padding: 10px;  
+}
+
+#timer {
   font-size: 80px;
   color: aliceblue;
-  padding: 10px;;
+}
+
+#life {
+  font-size: 80px;
+  color:indigo;
 }
 
 .surfer-zone {
