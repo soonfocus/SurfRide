@@ -74,8 +74,10 @@ const handleOrientation = (data) => {
 
 lifeContainer.textContent = life
 
-if(life <= 0) {
-  life = 0
+const FINISH = "FINISH"
+if(life <= 0 || life === FINISH) {
+  life = FINISH 
+  return 
 }
 
 if(surferLeft < tubeLeft || surferRight > tubeRight ){
